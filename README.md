@@ -31,4 +31,5 @@ g++ RCA_gen.cpp
 
 * Green line shows the result of CLA and Red line shows the result of CRA.
 * We can see that time taken for CLA is much lesser than CRA as value of N increases as curve for CLA is almost flat which shows that CLA is much faster than CRA.
-* amount of NAND gates required to realize CLA are more than that for CRA. This shows that CLA is much costlier to than CRA. 
+* Number of NAND gates required to realize CLA are more than that for CRA. This shows that CLA is much costlier to than CRA. 
+* For this experiment we can conclude that if we consider cost then CRA is better than CLA and if we consider the execution time then CLA ( O(log_2 n) ) is better then CRA ( O(n) ). Hence we need to look for trade-of between both of them.
