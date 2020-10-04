@@ -2,7 +2,7 @@
 This Repo contains code to Generate CLA &amp; CRA in verilog from HLL
 
 # How to run the code?
-* run the follow command
+* run the follow command to generate the N-bit CLA circuit in verilog. 
 * Code will ask to input the value of N when you will run ./a.out enter any value in power of 2. 
 
 g++ CLA_gen.cpp
@@ -11,7 +11,18 @@ g++ CLA_gen.cpp
 
 64
 
-* After running the above command the CLA.v file will be generated in you current directory which will contain the verilog file for N-bit adder (N is 64 in this case)
+* After running the above command the CLA.v file will be generated in you current directory which is the verilog file for N-bit adder (N is 64 in this case)
+
+- run the follow command to generate the N-bit CRA circuit in verilog. 
+- Code will ask to input the value of N when you will run ./a.out enter any value in power of 2. 
+
+g++ RCA_gen.cpp
+
+./a.out
+
+64
+
+- After running the above command the RCA.v file will be generated in you current directory which is the verilog file for N-bit adder (N is 64 in this case)
 
 
 # Comparative Analysis
