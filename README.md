@@ -1,5 +1,5 @@
 # Digitial_Adders
-This Repo contains code to Generate CLA &amp; CRA in verilog from HLL
+This repository contains the project done on Parameterized Carry Look-ahead/Ripple Adders as a part of the CAD for VLSI Systems(CS6230) course at IIT Madras. This Repo contains code to Generate CLA &amp; CRA in verilog from HLL
 
 # How to run the code?
 * run the follow command to generate the N-bit CLA circuit in verilog. 
